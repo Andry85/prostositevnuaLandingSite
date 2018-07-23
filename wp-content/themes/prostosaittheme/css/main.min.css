@@ -538,7 +538,9 @@ a.breif {
   vertical-align: top;
 }
 #pg-39-0, #pg-39-1, #pg-39-2, #pg-39-3, #pl-39 .so-panel,
-#pg-36-0, #pg-36-1, #pg-36-2, #pg-36-3, #pl-36 .so-panel {
+#pg-36-0, #pg-36-1, #pg-36-2, #pg-36-3, #pl-36 .so-panel,
+#pg-163-0, #pg-163-1, #pg-163-2, #pg-163-3, #pl-163 .so-panel
+ {
 	margin: 0!important;
 }
 
