@@ -171,12 +171,27 @@ img {
     .preambule {
       padding: 45px 0 55px 0; } }
 
+.offer {
+	  padding: 35px 0 0 0;
+
+}
+
+.ph {
+	  padding: 25px 0 0 0;
+	  display: block;
+	  text-align: center;
+	  text-decoration: none;
+	  color: #252626;
+	 font-family: 'EB Garamond', serif;
+	 font-size: 30px;
+
+}
+
 .title {
-  padding: 0 0 0 301px; }
+ text-align: center; }
   @media (max-width: 1199px) {
     .title {
-      padding-left: 0;
-      text-align: center; } }
+       } }
   .title h1 {
     font-family: 'EB Garamond', serif;
     font-size: 90px;
@@ -521,6 +536,10 @@ a.breif {
 .languages li {
   display: inline-block;
   vertical-align: top;
+}
+#pg-39-0, #pg-39-1, #pg-39-2, #pg-39-3, #pl-39 .so-panel,
+#pg-36-0, #pg-36-1, #pg-36-2, #pg-36-3, #pl-36 .so-panel {
+	margin: 0!important;
 }
 
 @media screen and (max-width: 767px) {
