@@ -1,9 +1,9 @@
-/*!
- * jQuery Mousewheel 3.1.13
+/*! Copyright (c) 2013 Brandon Aaron (http://brandon.aaron.sh)
+ * Licensed under the MIT License (LICENSE.txt).
  *
- * Copyright jQuery Foundation and other contributors
- * Released under the MIT license
- * http://jquery.org/license
+ * Version: 3.1.12
+ *
+ * Requires: jQuery 1.2.2+
  */
 
 (function (factory) {

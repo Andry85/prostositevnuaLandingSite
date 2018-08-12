@@ -25,12 +25,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <header class="header">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-2 col-lg-2">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
                             <a class="logo" href="<?php echo get_home_url(); ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="" title="">
                             </a>
                         </div>
-                        <div class="col-sm-7 col-lg-8">
+                        <div class="col-sm-7 col-md-6 col-lg-7">
                             <nav>
                                 <?php wp_nav_menu( array(
                                     'theme_location'  => 'main',
@@ -51,7 +51,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 ) ); ?>
                             </nav>
                         </div>
-                        <div class="hidden-xs col-sm-3 col-lg-2">
+                        <div class="hidden-xs col-sm-3 col-md-4 col-lg-3">
                             <ul class="languages">
                                 <?php pll_the_languages( array( 'show_flags' => 1,'show_names' => 0 ) ); ?>
                             </ul>
@@ -59,10 +59,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li>
                                     <span class="smartphone"></span>
                                     <a href="tel:+380683288541">(068)-328-85-41</a>
-                                </li>
-                                <li>
-                                    <span class="house"></span>
-                                    <?php echo get_post_meta($post->ID, 'street-address', true); ?>
                                 </li>
                             </ul>
                         </div>

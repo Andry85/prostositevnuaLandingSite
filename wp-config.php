@@ -20,12 +20,18 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
+// ** Localhost DB_NAME: prostositevnualandingsite ** //
+// ** Website DB_NAME: prostosait ** //
 define('DB_NAME', 'prostosait');
 
 /** Имя пользователя MySQL */
+// ** Localhost DB_USER: root ** //
+// ** Website DB_USER: prostosait ** //
 define('DB_USER', 'prostosait');
 
 /** Пароль к базе данных MySQL */
+// ** Localhost DB_PASSWORD:  ** //
+// ** Website DB_PASSWORD: qJot1Nex5 ** //
 define('DB_PASSWORD', 'qJot1Nex5');
 
 /** Имя сервера MySQL */
@@ -36,6 +42,7 @@ define('DB_CHARSET', 'utf8');
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define('DB_COLLATE', '');
+define( 'WP_AUTO_UPDATE_CORE', false );
 
 /**#@+
  * Уникальные ключи и соли для аутентификации.
