@@ -514,6 +514,11 @@ a.breif {
         background-image: url("../img/svg/vk.svg");
         -webkit-background-size: 64px 64px;
                 background-size: 64px 64px; }
+
+       .social__item a.youtube {
+        background-image: url("../img/svg/youtube.svg");
+        -webkit-background-size: 64px 64px;
+                background-size: 64px 64px; }         
       .social__item a:hover {
         -webkit-transform: scale(1.2, 1.2);
             -ms-transform: scale(1.2, 1.2);
