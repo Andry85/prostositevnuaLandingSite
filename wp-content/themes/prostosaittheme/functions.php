@@ -17,6 +17,32 @@
 
 
 
+	/*	===============================
+		Sidebar function
+		===============================
+	*/
+	function pr_widget_setup() {
+		/**
+		 * Creates a sidebar
+		 * @param string|array  Builds Sidebar based off of 'name' and 'id' values.
+		 */
+		$args = array(
+			'name'          =>'Sidebar name',
+			'id'            => 'sidebar-1',
+			'description'   => 'Left Sidebar',
+			'class'         => 'menu',
+			'before_widget' => '<ul class="menu">',
+			'after_widget'  => '</ul>',
+			'before_title'  => '<span style="display: none;">',
+			'after_title'   => '</span>',
+		);
+		
+		register_sidebar( $args );	
+	}
+
+	add_action('widgets_init','pr_widget_setup');
+
+
 
 
 

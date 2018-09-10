@@ -19,7 +19,7 @@
     // Scrolling menu
     $(".menu").on("click","a", function (event) {
         //отменяем стандартную обработку нажатия по ссылке
-        event.preventDefault();
+        // event.preventDefault();
         $(this).parent().addClass('current');
         $(this).parent().siblings().removeClass('current');
         //забираем идентификатор бока с атрибута href
