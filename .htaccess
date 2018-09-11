@@ -1,14 +1,23 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /
+RewriteBase /prostositevnualandingsite/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-RewriteCond %{SERVER_PORT} !^443$
-RewriteRule ^(.*)$ https://prostosite.vn.ua/$1 [R=301,L]
+RewriteRule . /prostositevnualandingsite/index.php [L]
 </IfModule>
 
 # END WordPress
 
+
+# BEGIN WordPress for local host
+	<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /prostositevnuaLandingSite/
+	RewriteRule ^index\.php$ - [L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /prostositevnuaLandingSite/index.php [L]
+	</IfModule>
+# END WordPress

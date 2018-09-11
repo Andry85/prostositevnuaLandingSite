@@ -273,18 +273,21 @@ a.breif {
   .worksSlider .item figure a img {
     display: block;
     border: 1px solid #e6e6e6; }
-  .worksSlider .item figure a .plus {
+    .worksSlider .item figure a .plus {
+    	position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    margin: -32px 0 0 -32px;
+    }
+    .plus {
     background: url("../img/svg/plus.svg") no-repeat;
     width: 64px;
     height: 64px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -32px 0 0 -32px;
+    display: block;
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease; }
-    .worksSlider .item figure a .plus:hover {
+    .plus:hover {
       -webkit-transform: rotate(1turn);
           -ms-transform: rotate(1turn);
               transform: rotate(1turn); }
