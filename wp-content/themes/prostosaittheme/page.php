@@ -2,6 +2,16 @@
 	<main class="main">				
 			<div class="container">
 				<div class="row">
+					<div class="col-sm-12">
+						<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+						    <?php if(function_exists('bcn_display'))
+						    {
+						        bcn_display();
+						    }?>
+						</div>
+					</div>
+				</div>
+				<div class="row">
 					<div class="col-sm-7 col-sm-offset-1">
 						<?php if (have_posts()) : ?>
 							<?php while (have_posts()) : the_post(); ?>
