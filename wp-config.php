@@ -22,7 +22,7 @@
 /** Имя базы данных для WordPress */
 // ** Localhost DB_NAME: prostosite ** //
 // ** Website DB_NAME: prostosait ** //
-define('DB_NAME', 'prostosite');
+define('DB_NAME', 'prostosait');
 
 /** Имя пользователя MySQL */
 // ** Localhost DB_USER: root ** //

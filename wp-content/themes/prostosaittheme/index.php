@@ -21,7 +21,7 @@
 								<div class="article">
 									<h2><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 									<div class="entry">
-										<?php the_content('Read the rest of this entry &raquo;'); ?>
+										<?php the_content('Read More &raquo;'); ?>
 									</div>
 								</div>
 							<?php endwhile; ?>

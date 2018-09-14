@@ -10,17 +10,3 @@
 		RewriteRule ^(.*)$ https://prostosite.vn.ua/$1 [R=301,L]
 	</IfModule>
 # END WordPress
-
-
-
-
-# BEGIN WordPress for local host
-	#<IfModule mod_rewrite.c>
-	#RewriteEngine On
-	#RewriteBase /prostositevnualandingsite/
-	#RewriteRule ^index\.php$ - [L]
-	#RewriteCond %{REQUEST_FILENAME} !-f
-	#RewriteCond %{REQUEST_FILENAME} !-d
-	#RewriteRule . /prostositevnualandingsite/index.php [L]
-	#</IfModule>
-# END WordPress
