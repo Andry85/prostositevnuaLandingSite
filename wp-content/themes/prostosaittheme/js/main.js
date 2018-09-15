@@ -1,4 +1,4 @@
-(function($){
+$(document).ready(function(){
 
     // faq accardion
     $('.faqList__title').click(function () {
@@ -7,13 +7,28 @@
     });
 
     // Adaptive menu
-    $(function(){
-        $('.menu').slicknav({
-            label: '',
-            duration: 1000,
-            closeOnClick: true
-        });
+    $('.menu').slicknav({
+        label: '',
+        duration: 1000,
+        closeOnClick: true
     });
+ 
+
+    mobileView();
+    function mobileView() {
+        
+        var wiw = window.innerWidth;
+        if(wiw < 768) {
+
+            $(".languages li").each(function(){
+                $(this).addClass('menu-item');
+                $(this).find('a').attr("role","menuitem");
+                $(this).find('a').attr("tabindex","0");
+            });
+
+            $('.languages').find('li').appendTo('.slicknav_nav');
+        }
+    };
 
 
     // Scrolling menu
@@ -67,4 +82,8 @@
         }
     });
 
-})(jQuery);
+
+   
+
+
+});
