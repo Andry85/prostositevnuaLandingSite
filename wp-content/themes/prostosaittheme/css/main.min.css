@@ -199,21 +199,25 @@ img {
   @media (max-width: 1199px) {
     .title {
        } }
-  .title h1 {
+  .title h1,.title .h1 {
     font-family: 'EB Garamond', serif;
     font-size: 90px;
     letter-spacing: 8px;
     margin: 0;
     display: inline-block;
     vertical-align: top; }
-    html[lang="uk"] .title h1 {
+    html[lang="uk"] .title h1, html[lang="uk"] .title .h1  {
       font-size: 78px;
     }
     @media (max-width: 1199px) {
-      .title h1 {
+      .title h1,.title .h1 {
         margin-bottom: 60px; } }
     @media (max-width: 767px) {
-      .title h1,html[lang="uk"] .title h1 {
+      .title h1,
+      .title .h1,
+      html[lang="uk"] .title h1,
+      html[lang="uk"] .title .h1 
+      {
         font-size: 45px;
         letter-spacing: 4px;
         margin-bottom: 30px; } }
