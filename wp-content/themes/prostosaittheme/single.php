@@ -26,6 +26,7 @@
 
 								<div class="article">
 									<h2><?php the_title(); ?></h2>
+									<span class="year">Last updated on <time datetime="<?php the_modified_time('Y-m-d'); ?>"><?php the_modified_time('F jS, Y'); ?></time></span>
 									<div class="entry">
 										<?php the_content('Read the rest of this entry &raquo;'); ?>
 									</div>
